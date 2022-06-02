@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/rootTree.test.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.4"
+  },
   "bugs": {
     "url": "https://github.com/Jaimin-Patel30/ds-prep/issues"
   },
